@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="game">
+        <h1 id="gameStatus">Who's The Winner?</h1>
+        <button id="startButton">Roll The Dice!</button>
+      </div>
+
+      <div class="dice">
+        <p>Player One Score: <span id="player1Score">0</span></p>
+        <img id="dice1" src="./images/dice6.png" />
+      </div>
+
+      <div class="dice player2">
+        <p>Player two Score: <span id="player2Score">0</span></p>
+        <img id="dice2" src="./images/dice6.png" />
+      </div>
+      <div>
+         <button class="refresh" onClick="window.location.reload();">Reset The Game!</button>
+      </div>
+     
+
+    </div>
+    
+    
+
+    <footer>🎮 &copy; Dice Game By Khaled 🎮</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
